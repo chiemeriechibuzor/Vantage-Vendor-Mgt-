@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog">
+    <sc_cat_item_catalog action="DELETE">
+        <sc_cat_item display_value="Vendor Details">36152f7ac3c43610b202be3ed4013170</sc_cat_item>
+        <sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog>
+        <sys_class_name>sc_cat_item_catalog</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:47:41</sys_created_on>
+        <sys_id>88a5e7bac3c43610b202be3ed40131d5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Vendor Details</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sc_cat_item_catalog_88a5e7bac3c43610b202be3ed40131d5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:47:41</sys_updated_on>
+    </sc_cat_item_catalog>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</application>
+        <file_path/>
+        <instance_id>19caec421b5d4e10a43dcb7b234bcb6d</instance_id>
+        <instance_name>dev252327</instance_name>
+        <name>sc_cat_item_catalog_88a5e7bac3c43610b202be3ed40131d5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sc_cat_item_catalog"><sc_cat_item_catalog action="INSERT_OR_UPDATE"><sc_cat_item display_value="Vendor Details">36152f7ac3c43610b202be3ed4013170</sc_cat_item><sc_catalog display_value="Service Catalog">e0d08b13c3330100c8b837659bba8fb4</sc_catalog><sys_class_name>sc_cat_item_catalog</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-21 22:47:41</sys_created_on><sys_id>88a5e7bac3c43610b202be3ed40131d5</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Service Catalog.Vendor Details</sys_name><sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package><sys_policy/><sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope><sys_update_name>sc_cat_item_catalog_88a5e7bac3c43610b202be3ed40131d5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-21 22:47:41</sys_updated_on></sc_cat_item_catalog></record_update>]]></payload>
+        <payload_hash>1610925781</payload_hash>
+        <record_name>Service Catalog.Vendor Details</record_name>
+        <reverted_from/>
+        <source>b84c3a3ac3043610b202be3ed40131c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:47:41</sys_created_on>
+        <sys_id>40a5e7bac3c43610b202be3ed40131d9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1996e7628800000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:47:41</sys_updated_on>
+        <type>Catalog Items Catalog</type>
+        <update_guid>80a5e7ba3dc43610e5bac427ca0b8dd8</update_guid>
+        <update_guid_history>80a5e7ba3dc43610e5bac427ca0b8dd8:1610925781</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Service Catalog.Vendor Details">d7b66ffac3c43610b202be3ed401315c</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:52:33</sys_created_on>
+        <sys_db_object display_value="" name="sc_cat_item_catalog">sc_cat_item_catalog</sys_db_object>
+        <sys_id>0081e67913894215baf5902192208321</sys_id>
+        <sys_metadata>88a5e7bac3c43610b202be3ed40131d5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Service Catalog.Vendor Details</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_parent display_value="Vendor Details">36152f7ac3c43610b202be3ed4013170</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_scope_delete display_value="">0810eeee53074ba086a6cdd07ab36804</sys_scope_delete>
+        <sys_update_name>sc_cat_item_catalog_88a5e7bac3c43610b202be3ed40131d5</sys_update_name>
+        <sys_update_version display_value="sc_cat_item_catalog_88a5e7bac3c43610b202be3ed40131d5">40a5e7bac3c43610b202be3ed40131d9</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:52:33</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

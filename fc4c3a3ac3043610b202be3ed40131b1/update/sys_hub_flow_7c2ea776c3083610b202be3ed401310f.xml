@@ -1,0 +1,630 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <attributes>browserActivatedIn=chrome,integrationActivatedIn=integrated,viewActivatedIn=naturalLanguage</attributes>
+        <authored_on_release_version>26000</authored_on_release_version>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <compiler_build/>
+        <copied_from>9a41b6c2ff12101088e94ee9453bf1a4</copied_from>
+        <copied_from_name>FlowTemplate_Empty</copied_from_name>
+        <description>Assign vendor for approval </description>
+        <display_name_after_preview/>
+        <flow_priority/>
+        <generation_source/>
+        <internal_name>vendor_risk__flow</internal_name>
+        <label_cache>[{"name":"Updated_1.current.iso_27001_certified","label":"Trigger - Record Updated➛Compliance  Record➛Iso 27001 certified","reference":"","reference_display":"Iso 27001 certified","type":"boolean","base_type":"boolean","parent_table_name":"x_1078442_vantage_compliance","column_name":"iso_27001_certified","usedInstances":{"6f3cd867-e64a-4d31-ad73-2819b09614bd":["condition"],"b821f005-aa29-4f3a-8119-2978978e89c2":["condition"],"f66c1f90-4301-464b-85e1-d319619d9987":["condition"]}},{"name":"{{static.e6826bf03710200044e0bfc8bcbe5deb}}","label":"Bette Barcelona","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","usedInstances":{"1eb8a591-431d-40bf-982d-29e88431a452":["approval_conditions"]}},{"name":"Updated_1.current.soc2_expiry_date","label":"Trigger - Record Updated➛Compliance  Record➛soc2_expiry Date","reference":"","reference_display":"soc2_expiry Date","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1078442_vantage_compliance","column_name":"soc2_expiry_date","usedInstances":{}},{"name":"Updated_1.run_start_time","label":"Trigger - Record Updated➛Run Start Time UTC","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Updated_1.current.soc2_certified","label":"Trigger - Record Updated➛Compliance  Record➛Soc2 certified","reference":"","reference_display":"Soc2 certified","type":"boolean","base_type":"boolean","parent_table_name":"x_1078442_vantage_compliance","column_name":"soc2_certified","usedInstances":{"06d15c8f-a631-4798-b37c-c1e375aa6c4b":["condition"],"6f3cd867-e64a-4d31-ad73-2819b09614bd":["condition"],"b821f005-aa29-4f3a-8119-2978978e89c2":["condition"],"f66c1f90-4301-464b-85e1-d319619d9987":["condition"]}},{"name":"Updated_1.current.risk_score","label":"Trigger - Record Updated➛Compliance  Record➛Risk score","reference":"","reference_display":"Risk score","type":"integer","base_type":"integer","parent_table_name":"x_1078442_vantage_compliance","column_name":"risk_score","usedInstances":{"06d15c8f-a631-4798-b37c-c1e375aa6c4b":["condition"]}},{"name":"{{static.3c67f6b2c3043610b202be3ed40131de}}","label":"Vendor Compliance ","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","usedInstances":{"6d6692dd-3ced-4f21-a2bf-5ee3d37b608f":["approval_conditions"],"df53a8d3-fe69-44a7-8c29-482528fb81fa":["approval_conditions"],"1eb8a591-431d-40bf-982d-29e88431a452":["approval_conditions"]}},{"name":"Updated_1.current","label":"Trigger - Record Updated➛Compliance  Record","reference":"x_1078442_vantage_compliance","reference_display":"Compliance ","type":"reference","base_type":"reference","usedInstances":{"b59f83be-f839-49e9-8716-14a61d3dca29":["record"],"07382334-944f-4d01-8a3b-c554f4b77a53":["record"],"6d6692dd-3ced-4f21-a2bf-5ee3d37b608f":["record"],"df53a8d3-fe69-44a7-8c29-482528fb81fa":["record"],"1eb8a591-431d-40bf-982d-29e88431a452":["record"],"2b254b9d-3aa8-49fb-8e8f-4c76c8a60cdb":["record"],"50691e63-ac20-444d-8540-d5dea72a99bf":["record"],"f9cefbf4-1e3f-4235-9011-e5838e090bc4":["record"],"b3a388fa-2f76-4734-ac79-4d46187ed7a4":["record"],"0ac6dc6f-5abd-4215-b22b-7fa9aa6fb1ee":["record"]},"attributes":{}},{"name":"Updated_1.current.assigment_group.manager","label":"Trigger - Record Updated➛Compliance  Record➛Assigment group ➛Manager","reference":"sys_user","reference_display":"User","type":"reference","base_type":"reference","parent_table_name":"sys_user_group","column_name":"manager","usedInstances":{"b59f83be-f839-49e9-8716-14a61d3dca29":["approval_conditions"]}},{"name":"Updated_1.current.annual_spend_estimatecurrency","label":"Trigger - Record Updated➛Compliance  Record➛annual_spend_estimateCurrency","reference":"","reference_display":"annual_spend_estimateCurrency","type":"integer","base_type":"integer","parent_table_name":"x_1078442_vantage_compliance","column_name":"annual_spend_estimatecurrency","usedInstances":{"b0170663-2119-4d46-9768-9b84f51d420b":["condition"],"06d15c8f-a631-4798-b37c-c1e375aa6c4b":["condition"]}},{"name":"Updated_1.current.gdpr_compliant","label":"Trigger - Record Updated➛Compliance  Record➛Gdpr compliant","reference":"","reference_display":"Gdpr compliant","type":"choice","base_type":"choice","parent_table_name":"x_1078442_vantage_compliance","column_name":"gdpr_compliant","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"image":"","label":"Not Applicable","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Not Applicable","value":"Not Applicable","parameters":{"name":"x_1078442_vantage_compliance","dependent_values":[""]}},{"image":"","label":"Yes","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Yes","value":"Yes","parameters":{"name":"x_1078442_vantage_compliance","dependent_values":[""]}}],"usedInstances":{}},{"name":"Updated_1.current.iso_27001_expiry","label":"Trigger - Record Updated➛Compliance  Record➛Iso 27001 expiry","reference":"","reference_display":"Iso 27001 expiry","type":"glide_date","base_type":"glide_date","parent_table_name":"x_1078442_vantage_compliance","column_name":"iso_27001_expiry","usedInstances":{"4d4ce0d4-27cc-4358-8995-0c72acea67ad":["condition"]}},{"name":"Updated_1.run_start_date_time","label":"Trigger - Record Updated➛Run Start Date/Time","type":"glide_date_time","base_type":"glide_date_time","usedInstances":{},"attributes":{"test_input_hidden":"true"}},{"name":"Updated_1.current.assigment_group","label":"Trigger - Record Updated➛Compliance  Record➛Assigment group ","reference":"sys_user_group","reference_display":"Assigment group ","type":"reference","base_type":"reference","parent_table_name":"x_1078442_vantage_compliance","column_name":"assigment_group","usedInstances":{"f9cefbf4-1e3f-4235-9011-e5838e090bc4":["record","approval_conditions"],"0ac6dc6f-5abd-4215-b22b-7fa9aa6fb1ee":["approval_conditions","record"]}},{"name":"Updated_1.current.approval_status","label":"Trigger - Record Updated➛Compliance  Record➛Approval status","reference":"","reference_display":"Approval status","type":"choice","base_type":"choice","parent_table_name":"x_1078442_vantage_compliance","column_name":"approval_status","choices":[{"label":"-- None --","image":"","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"-- None --","value":""},{"image":"","label":"Approved","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Approved","value":"Approved","parameters":{"name":"x_1078442_vantage_compliance","dependent_values":[""]}},{"image":"","label":"Rejected","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Rejected","value":"rejected","parameters":{"name":"x_1078442_vantage_compliance","dependent_values":[""]}},{"image":"","label":"Under Review","used":false,"reference":false,"selected":false,"missing":false,"rawLabel":"Under Review","value":"Under Review","parameters":{"name":"x_1078442_vantage_compliance","dependent_values":[""]}}],"usedInstances":{"5808fb50-82c4-4ca8-9fef-64a23a723896":["condition"]}},{"name":"Updated_1.current.assigned_to","label":"Trigger - Record Updated➛Compliance  Record➛Assigned to ","reference":"sys_user","reference_display":"Assigned to ","type":"reference","base_type":"reference","parent_table_name":"x_1078442_vantage_compliance","column_name":"assigned_to","usedInstances":{"0ac6dc6f-5abd-4215-b22b-7fa9aa6fb1ee":["approval_conditions"]}}]</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <master_snapshot_digest/>
+        <name> Vendor Risk  Flow</name>
+        <natlang/>
+        <outputs/>
+        <pre_compiled>false</pre_compiled>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <run_with_roles/>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <substatus/>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 23:24:52</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7c2ea776c3083610b202be3ed401310f</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name> Vendor Risk  Flow</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_hub_flow_7c2ea776c3083610b202be3ed401310f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <type>flow</type>
+        <updation_source/>
+        <version>2</version>
+        <version_record/>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_hub_flow_stage action="delete_multiple" query="flow=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_flow_cat_variable_model action="delete_multiple" query="id=7c2ea776c3083610b202be3ed401310f^sys_idNOT INf02ea776c3083610b202be3ed4013112"/>
+    <sys_flow_cat_variable_model action="INSERT_OR_UPDATE">
+        <id>7c2ea776c3083610b202be3ed401310f</id>
+        <name> Vendor Risk  Flow</name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 23:24:52</sys_created_on>
+        <sys_id>f02ea776c3083610b202be3ed4013112</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 23:24:52</sys_updated_on>
+    </sys_flow_cat_variable_model>
+    <sys_flow_cat_variable action="delete_multiple" query="flow_catalog_model=f02ea776c3083610b202be3ed4013112"/>
+    <sys_hub_flow_input action="delete_multiple" query="model=7c2ea776c3083610b202be3ed401310f^sys_idNOT IN6b5e6d4bc3407610b202be3ed40131e6,a35e6d4bc3407610b202be3ed40131ea,af5e694bc3407610b202be3ed4013127"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>child_label=FDChangeDetails,child_name=FDChangeDetails,child_type=object,child_type_label=Object,co_type_name=FDCollection,element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,pwd2droppable=true,uiType=array.object,uiTypeLabel=Array.Object</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>changed_fields</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="String">string</internal_type>
+        <label>Changed Fields</label>
+        <mandatory>false</mandatory>
+        <max_length>4000</max_length>
+        <model display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</model>
+        <model_id>7c2ea776c3083610b202be3ed401310f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>6b5e6d4bc3407610b202be3ed40131e6</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=6b5e6d4bc3407610b202be3ed40131e6"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,test_input_hidden=true,uiType=table_name,uiTypeLabel=Table Name</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent/>
+        <dependent_on_field/>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>table_name</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">table_name</internal_type>
+        <label>Table Name</label>
+        <mandatory>false</mandatory>
+        <max_length>200</max_length>
+        <model display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</model>
+        <model_id>7c2ea776c3083610b202be3ed401310f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <next_element/>
+        <order>101</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>a35e6d4bc3407610b202be3ed40131ea</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>false</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=a35e6d4bc3407610b202be3ed40131ea"/>
+    <sys_hub_flow_input action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <array>false</array>
+        <array_denormalized>false</array_denormalized>
+        <attributes>element_mapping_provider=com.glide.flow_design.action.data.FlowDesignVariableMapper,uiType=document_id,uiTypeLabel=Document ID</attributes>
+        <audit>false</audit>
+        <calculation><![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]></calculation>
+        <choice/>
+        <choice_field/>
+        <choice_table/>
+        <column_label/>
+        <comments/>
+        <create_roles/>
+        <default_value/>
+        <defaultsort/>
+        <delete_roles/>
+        <dependent>table_name</dependent>
+        <dependent_on_field>table_name</dependent_on_field>
+        <display>false</display>
+        <dynamic_creation>false</dynamic_creation>
+        <dynamic_creation_script/>
+        <dynamic_default_value/>
+        <dynamic_ref_qual/>
+        <element>current</element>
+        <element_reference>false</element_reference>
+        <foreign_database/>
+        <formula/>
+        <function_definition/>
+        <function_field>false</function_field>
+        <help/>
+        <hint/>
+        <internal_type display_value="">document_id</internal_type>
+        <label>Record</label>
+        <mandatory>true</mandatory>
+        <max_length>200</max_length>
+        <model display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</model>
+        <model_id>7c2ea776c3083610b202be3ed401310f</model_id>
+        <model_table>sys_hub_flow</model_table>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <next_element/>
+        <order>100</order>
+        <primary>false</primary>
+        <read_only>false</read_only>
+        <read_roles/>
+        <reference/>
+        <reference_cascade_rule/>
+        <reference_floats>false</reference_floats>
+        <reference_key/>
+        <reference_qual/>
+        <reference_qual_condition/>
+        <reference_type/>
+        <sizeclass/>
+        <spell_check>false</spell_check>
+        <staged>false</staged>
+        <sys_class_name>sys_hub_flow_input</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>af5e694bc3407610b202be3ed4013127</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <table_reference>false</table_reference>
+        <text_index>false</text_index>
+        <unique>false</unique>
+        <use_dependent_field>true</use_dependent_field>
+        <use_dynamic_default>false</use_dynamic_default>
+        <use_reference_qualifier>simple</use_reference_qualifier>
+        <virtual>false</virtual>
+        <virtual_type>script</virtual_type>
+        <widget/>
+        <write_roles/>
+        <xml_view>false</xml_view>
+    </sys_hub_flow_input>
+    <sys_hub_action_input_action_instance action="delete_multiple" query="action_input=af5e694bc3407610b202be3ed4013127"/>
+    <sys_hub_flow_output action="delete_multiple" query="model=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_hub_trigger_instance_v2 action="delete_multiple" query="flow=7c2ea776c3083610b202be3ed401310f^sys_idNOT IN7333a71fc30cb610b202be3ed4013164"/>
+    <sys_hub_trigger_instance_v2 action="INSERT_OR_UPDATE">
+        <comment/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <generation_source/>
+        <name>Updated</name>
+        <published_version/>
+        <remote_sys_id/>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 11:54:16</sys_created_on>
+        <sys_id>7333a71fc30cb610b202be3ed4013164</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:31:16</sys_updated_on>
+        <trigger_definition display_value="Updated">bb695e60c31322002841b63b12d3aea5</trigger_definition>
+        <trigger_inputs>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</trigger_inputs>
+        <trigger_outputs/>
+        <trigger_type>record_update</trigger_type>
+        <updation_source/>
+    </sys_hub_trigger_instance_v2>
+    <sys_hub_action_instance_v2 action="delete_multiple" query="flow=7c2ea776c3083610b202be3ed401310f^sys_idNOT IN42bb2797c34cb610b202be3ed40131c6,6a8ca7d7c34cb610b202be3ed4013158,c6bb2797c34cb610b202be3ed40131c7,f733a71fc30cb610b202be3ed40131b4"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Risk level == High</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <generation_source/>
+        <order>4</order>
+        <parent_ui_id>f66c1f90-4301-464b-85e1-d319619d9987</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:31:16</sys_created_on>
+        <sys_id>42bb2797c34cb610b202be3ed40131c6</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:31:16</sys_updated_on>
+        <ui_id>50691e63-ac20-444d-8540-d5dea72a99bf</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UUWvbMBD+K0HPxthxmqV5GwuBPayFbutLV4QsXRIxWdZk2U0W8t93suU0bdculMAoVG863X33fXcfutkSKciUjEAk6Xk65lmaZcMkGU5GaT7O8nQoMgaQkohoVgBmWuClFXhvmKp9YLv9bgRzIGga89pa0G63w3chK6PY5jqkYYSvpBL4TqY3txExzCKiA0um20dPbmOAKpaDwsJZyesCQQefZ4hxLNu++qqn+5i+74F3EdCp9EF88nzSJCKwdqAFYLsFUxVEpGAaZZZ2Q6bO1hiwwMSlVpt9xkpq1ykt2LqSvxF/lPi8BaA0Hqawv9IwoX44peRwaZwsdRdxLFf95EpVF/qik+BnCwtWK3cw27pCPDCesifRMVx8XZV3V32/udStusBWlZyp/Y05Z2VeO6j8OkBBO5SCGSP1khpbNrItRipFvFR4iReqvMOelVzqmHHPO8YBsXiO8VkbvmZWehFfEAaLd614+qv2fTsZgTBtNbeCabsoTK24lcZ9ROAGAs1dFOyan71kAH5+v+8DzHvLrmmafJiMRkPaMO3YEiiqMkoyv6Qnzv20fxu82sTfPI3BRUfjWAkPip+RFGz8IBZcfHYyF0/+k4sDozdm43+ZNxm++HsdbLr1a3VgXCurn1RBA+pHnSSZWMnl6qlhn8l6pXMB3Y/f+6BDj47W0APMJShR/UVUb93QgDahwf4TPpl/03HSnve/+IR/8e0fXX19LTwIAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=42bb2797c34cb610b202be3ed40131c6"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <generation_source/>
+        <order>7</order>
+        <parent_ui_id>5808fb50-82c4-4ca8-9fef-64a23a723896</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:34:52</sys_created_on>
+        <sys_id>6a8ca7d7c34cb610b202be3ed4013158</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:34:52</sys_updated_on>
+        <ui_id>b3a388fa-2f76-4734-ac79-4d46187ed7a4</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4HPhmHHaZbmNiwIsMNaoNt66QqBlphEgyx7spQmC/LfR9lymrZbGxQFhgHzjR8i3yOfebOLpIim0QhFmp1nY55neT5M0+FklBXjvMiGIgfELIojDSVSpkFeGUH2GpTzjt3uay3AomBZwp0xqO1+T3Ehm1rB9jqkkYevpBIUj6Y3t3FUg6GKFk003T0K2W2NTEGBih7OKu5KKjr4OKMap6LtX1/1cB/D9z3IFqE6k95JIY8nS+MINxa1QGq3ANVgHJWgiWZlttHUGkcOgyAutdoeMlZS245pCZtG/qT6o9TnLZCo8TCFg8nChPrhVJLjZW1lpTuPhUL1k6uUK/VFR8HPFhfglD2arWuoHtYesgfRIVx8XlV3V32/udQtu4BWVRzUwQJrjSycxcavAxW2QymhrqVestpUa9k+JihlslRkJAtV3VHPRi51AtzjTmhAkMzJP2vd12CkJ/GJytDjfUue/XC+b0cjAGYt55YwaxdFqQ03srbvqfAaA8x9HORanD0nAH5+v++jmveS3bAsfTcZjYZsDdrCEhmxqpUEv6Qnyv1wiA1eLeIvHsbgooNxKoUHj/9AKcj4gS+o+OzNVDz5SyoOiP4xGb8k3nT47PU62nSr1+ZIuASAKIBijQXrmm8uTXNS3HfkdH+fKvel9FdqGel/oIM/6NrEJ7PqC8wlKtH8hmYv5tCArUODw1l+M0Vn47T9/l/nN7zOt78AeGE1Ok4IAAA=</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=6a8ca7d7c34cb610b202be3ed4013158"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Ask For Approval">f8f2e9920b10030085c083eb37673abd</action_type>
+        <action_type_parent display_value="Ask For Approval">bae0a1120b10030085c083eb37673a92</action_type_parent>
+        <attributes/>
+        <comment>from the Risk &amp; Compliance team</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <generation_source/>
+        <order>5</order>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:31:16</sys_created_on>
+        <sys_id>c6bb2797c34cb610b202be3ed40131c7</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <ui_id>0ac6dc6f-5abd-4215-b22b-7fa9aa6fb1ee</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1XW2/aMBT+K8jPiIVLB+WtGmLapK1S2/UFqsg4DngyTuYLLUP57zuOnZACSxFC6lb10ef6nXO+4ziTDWIRGqL+IO7Qy8tOMGsHQTcIBhckGHTprNv/2O9iEqAmEnhJwVJSksgIzivMjRVsNj/SCGsahe0WMVJSobMM9BFTKcfre28GErJgPAI9Gk4emijFEiJqKtFws6PS65SGHM8oB8dRQswSgja+jCDGsWgL75sC7i58mwPOkY8eMisElcUTNBF90lREFLLFmCvaREssoMpErtFQSwMCSXF0Lfi6tFgwoV2hS/yk2G8I3+1Yu5hCZcQ3oTyGvkFFbxJG6HWqWSKcROMZLxqXcLMU310FtrU0xobrSmuNgng0tZAtCIcwvl0kjzdFvjETeXEeLU8I5uUJay3ZzGiq7DQop3lPljhNmZiHqUxWLHcGKMvWnMOhFfPkEXIqNhctTCzuFjQIt8YgH+XieyyZLeIbhAHnLC8+/GVsXleGBxzmNbuCwUoRyVJ9BTFX1CPMmp6oM1I7erKdtAu35elT2A76g16vE66w0HhOQ6gl5Qzb0ezR9VOpa5zM3DuLoJGPrXk0+mfO+9V42ubHULjQnrXtetZ6yTG0HQSvQ1uP6D/j7UuUDdp1Q48G2yFDPkCMeRgzyqt3bKlQGmuj9um6b3AaZcc28TPKHoG+cL7yIBpjD/9vZXkS58cdEnfOSOLglWj8dm9fUksG2t3O/GdipDjAZC/fZ/BWcS7mHgG2cP7qku8Sd7eIGt5233n7D/O2d1FLBXrgriKJiJjFpyrsdTccVVdi/Xly4OHbwgpKyLswl4lJs+xhn+mnBTltK8or+cZwqorNOKId5fvZ+9W2x+9FqZTeye9G71zP6ddbjbf5MiG1PIgvt3OPDLQDaFr975siB3KKhlMkEkGnqDlF1iq0hMjFYAHgSkUu22yyzEmMxD5Au3Lcekd4rXJLRRY0AlLl0mcSx3QvP+dv561P0BgB7g93rPJdeblr5b+rcf4HG+m3pqzEdY5VvyoXZ/uq9N4Xp7I4AJOFxXVlPyJwBZ28TQ9/AOWoCuVFEQAA</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=c6bb2797c34cb610b202be3ed40131c7"/>
+    <sys_hub_action_instance_v2 action="INSERT_OR_UPDATE">
+        <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
+        <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
+        <attributes/>
+        <comment>Risk Level == Low</comment>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <generation_source/>
+        <order>2</order>
+        <parent_ui_id>6f3cd867-e64a-4d31-ad73-2819b09614bd</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 11:54:16</sys_created_on>
+        <sys_id>f733a71fc30cb610b202be3ed40131b4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:31:16</sys_updated_on>
+        <ui_id>2b254b9d-3aa8-49fb-8e8f-4c76c8a60cdb</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1U32vbMBD+V4KejbHjNEvzNhYCe1gL3daXrghZuiRisqzJspss5H/fyZbT9Me6UAKjUL3pdPfd99196GZLpCBTMgKRpOfpmGdplg2TZDgZpfk4y9OhyBhASiKiWQGYaYGXVuC9Yar2ge32uxHMgaBpzGtrQbvdDt+FrIxim+uQhhG+kkrgO5ne3EbEMIuIDiyZbh89uY0BqlgOCgtnJa8LBB18niHGsWz76que7mP6vgfeRUCn0gfxyfNJk4jA2oEWgO0WTFUQkYJplFnaDZk6W2PAAhOXWm32GSupXae0YOtK/kb8UeLzFoDSeJjC/krDhPrhlJLDpXGy1F3EsVz1kytVXeiLToKfLSxYrdzBbOsK8cB4yp5Ex3DxdVXeXfX95lK36gJbVXKm9jfmnJV57aDy6wAF7VAKZozUS2ps2ci2GKkU8VLhJV6o8g57VnKpY8Y97xgHxOI5xmdt+JpZ6UV8QRgs3rXi6a/a9+1kBMK01dwKpu2iMLXiVhr3EYEbCDR3UbBrfvaSAfj5/b4PMO8tu6Zp8mEyGg1pw7RjS6CoyijJ/JKeOPfT/m3wahN/8zQGFx2NYyU8KP6LpGDjB7Hg4rOTuXjyn1wcGL0xG//LvMnwxd/rYNOtX6sD41pZ/aQKGlA/6iTJBFJ86tfnk17pW0Dv4+c+6MCjoxX0AHMJSlTPSOqNGxrQJjTYf8Enc286Ttrz/hOf8Ce+/QPCgWh7OggAAA==</values>
+    </sys_hub_action_instance_v2>
+    <sys_hub_alias_mapping action="delete_multiple" query="source_id=f733a71fc30cb610b202be3ed40131b4"/>
+    <sys_hub_sub_flow_instance_v2 action="delete_multiple" query="flow=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_hub_flow_logic_instance_v2 action="delete_multiple" query="flow=7c2ea776c3083610b202be3ed401310f^sys_idNOT IN2a8ca7d7c34cb610b202be3ed4013159,46bb2797c34cb610b202be3ed40131c8,4abb2797c34cb610b202be3ed40131c5,7f33a71fc30cb610b202be3ed40131b2"/>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">228ca7d7c34cb610b202be3ed4013159</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="End">d176605ea76103004f27b0d2187901c7</logic_definition>
+        <order>8</order>
+        <outputs_assigned/>
+        <parent_ui_id>5808fb50-82c4-4ca8-9fef-64a23a723896</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:34:52</sys_created_on>
+        <sys_id>2a8ca7d7c34cb610b202be3ed4013159</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <ui_id>54770477-a5ae-44d2-b4d7-049fd564cb4e</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/6tWyi8tKSgtKQ7JdywuzkzPU7KKjtVRyswDiUHYZYlFmYlJOalQbkpqcmZxZn5eCEjME0ldSmVeYm5mMrJQeX5RdlpOfjlCrBYAD1ouqHEAAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">8ebb2797c34cb610b202be3ed40131c7</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>6</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:31:16</sys_created_on>
+        <sys_id>46bb2797c34cb610b202be3ed40131c8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <ui_id>5808fb50-82c4-4ca8-9fef-64a23a723896</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1UTW/bMAz9K4HPgeGPJlhzCzYUGLCtQNv1shUGLdGJNlnSJLlpFuS/j7LsNNgSrCh23CUwHynyPfIhu0R33nTe3emlc2KlksWXh2kiVMDoe5coaDFZJEwrLrzQquqBafIIsguJpTFWUzD52mVZyePv5Aa/IfPIqZALZyRs719az9ZCcosDEwOW5nm0yWL3W8pvDVYSapTU9tZboVb0XHCKmgya/JLlrCzmZZFlxZuLvJ6XdV7wEhBKqhsfvh2FTT70yPSs4jCPcDdO0pYHWnk2TfDJo+JEf9GAdDhNWlAcvLbbA2IR+LWSz8BaKE/tklD85MRP6l3MZqGwQdLIMCYPYTUsMsJsrQXDaxMIRsRDLYc3TMuuVZ+ijnACbKCTfjwBIZ2jfmgC6cBioNTcrvXmZhx4JVQvcEhKzUAeIvC0hrrz6MJhUGJLjaoWjKHlVOHEon9MXNp0JSlIG6k3NDS4LAUWiKe0I0ivCH/Xw/dgRVDxkdrQ40izBidY1TuS2nlLEvb9WqofXSAUBQ5SqrgNKnDMCuOXNOcRB9b76Z92PnLybvfZECHkVZ6yztIOfAqDWyvnwXduv49+tWft/bom/8LzlzBrZnk2O+35i/kpz59w+3mjF38xejjNC32eZdl/ox8bXbgqGnbQ1g9/tc8fgqnjBBd9w5EJR0TuAvZ+/HcPiS0ZQLBjaKPt9yDhGdv/AkR6knsnBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">4ebb2797c34cb610b202be3ed40131c4</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>3</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 12:31:16</sys_created_on>
+        <sys_id>4abb2797c34cb610b202be3ed40131c5</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <ui_id>f66c1f90-4301-464b-85e1-d319619d9987</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1VTW/bMAz9K4bPgSHbTbbmVnQoEGBrsKXrZe0EWaITYbLkSXLSLMh/H+WPNFgTrBiGnXazHkXyPYoP3sWm8XXj3Z25ck4udTz98jiKpQ4Yfu9izSqIpzE3WkgvjaYtMIrXTDUhMCuj2WIeZW8ISSNjo8X8Oosi6aKSKQcR3hTS1Ypt71+dwFdSCQs9l5pZ7OjBxtPdLyG/rYEqVoDCugtvpV5iuhR4Kgkr00ue8jyb5Bkh2duLtJjkRZqJnAHL8d6QeD1Ii963yOis5tAPcTd0MlYEWikZxfDkQQvA1q2MUVwxLZg3dntALDAx1+oZWEntsVwcLj85+QNrZ+NxuFgCauTQBQ9H2k+yg/nKSA7zOhDsEM8K1edwo5pK33Y6whtAyRrlhzdApHFYD+pAOrDoKZWLldl8GhreSN0K7IPKcKYOJ+ZxDEXjwYWHAQUVFqIVq2scDq2tWcs2GblUyVLhISmV2WDTsGcJ44F4gjNiyQ3i71r4nlkZVHzAMpjc0SyYk5y2O4nlvEUJ+3Ys9HsTCHUCeym0mwZecNzK2l9hnzX0rPejlwt9tMu73ecaCYGgacIbizPwiXSGtrtKOVgvSwliv39oCMlFW/Lr7cdTac7w7EzGS0v8s75/w1mXbFyOUzI+7ayLySlnnfDUeTtlv7FTWIBXuokQ8t9Ox3aSjna26LV1i/GnbnoM1uk6uG5vBHDpkMhdwGbDXyQEtrgAkh9DG2O/BQnP2P4nVV0K9Y8GAAA=</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_flow_logic_instance_v2 action="INSERT_OR_UPDATE">
+        <attributes/>
+        <block display_value="">7333a71fc30cb610b202be3ed40131b1</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <display_text/>
+        <flow display_value=" Vendor Risk  Flow">7c2ea776c3083610b202be3ed401310f</flow>
+        <flow_variables_assigned/>
+        <generation_source/>
+        <logic_definition display_value="If">af4e1945c3e232002841b63b12d3ae3e</logic_definition>
+        <order>1</order>
+        <outputs_assigned/>
+        <parent_ui_id/>
+        <sys_class_name>sys_hub_flow_logic_instance_v2</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-23 11:54:16</sys_created_on>
+        <sys_id>7f33a71fc30cb610b202be3ed40131b2</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-23 12:45:18</sys_updated_on>
+        <ui_id>6f3cd867-e64a-4d31-ad73-2819b09614bd</ui_id>
+        <updation_source/>
+        <values>H4sIAAAAAAAA/+1Vy27bMBD8FUFnQaCk2G18C1IEMNDWQJ3m0iYERa5sopTIkpQd1/C/d6mHYzQO+kDRU2/icB8zyx1oH+vWm9a7W33lnFw18ezTfRLLJmD4vY8bVkM8i7luhPRSN7QDknjDVBsu5lU0Xy6i/BUhWcQaES0X13kUSRe1JvI6EsxDhPFCOqPY7u430/haKmFh4GWYxe4ebDzb/3DldwaoYiUorL70VjYrTJcCTxVhVXbJM17k0yInJH99kZXTosxyUTBgBcaNidejzOhthyQv6g/9EHdjJ21FoJWRJIZHD40AbF0x5SCJaxTIvLa7I2KBiUWjnoC1bDyWi0Pwo5PfsHY+mYTAClAjh/7yeKTDPHuYr7XksDCBYI94Vqohh2vV1s37Xkd4CahYq/z4Eoi0DuuBCaQDi4FStVzr7Yex4Y1sOoHDpdKcqeOJeRxD2Xpw4WFAQY2FaM2MweFQY/VGdsnIpU5XCg9ppfQWm4adSxkPxFOcEUtvEH/TwXfMyqDiHZbB5J5myZzktNtPLOctSjh0Y6Ff20CoFzhIof00MMBxK42/wj4bGFgfkufLfbLX+/1HE5ZQ0CzlrcUZ+FQ6TbuNpRysl5UEcTh8bgkpRGDycC7HaZ6fD39uin/S82846pJNqklGJucddTE956gzXnrZRvlPbBS0/KKLCCH/bXRqI+lob4dBW9f8j110HyzTd3D93gjg0iGR24DNxz9JuNjhAkh+Cm21/RIkPGGH7wOrOfyTBgAA</values>
+        <workflow_reference/>
+    </sys_hub_flow_logic_instance_v2>
+    <sys_hub_pill_compound action="delete_multiple" query="attached_to=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_hub_flow_variable action="delete_multiple" query="model=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>current</element>
+        <help/>
+        <hint/>
+        <label>Record</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>635e6d4bc3407610b202be3ed40131e5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>changed_fields</element>
+        <help/>
+        <hint/>
+        <label>Changed Fields</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>a35e6d4bc3407610b202be3ed40131e9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_documentation action="INSERT_OR_UPDATE">
+        <element>table_name</element>
+        <help/>
+        <hint/>
+        <label>Table Name</label>
+        <language>en</language>
+        <name>var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f</name>
+        <plural/>
+        <sys_class_name>sys_documentation</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-22 08:45:07</sys_created_on>
+        <sys_id>a75e6d4bc3407610b202be3ed40131ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name/>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-22 08:45:07</sys_updated_on>
+        <url/>
+        <url_target/>
+    </sys_documentation>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_7c2ea776c3083610b202be3ed401310f"/>
+    <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_7c2ea776c3083610b202be3ed401310f"/>
+    <sys_flow_trigger_plan action="delete_multiple" query="plan_id=7c2ea776c3083610b202be3ed401310f"/>
+    <sys_flow_subflow_plan action="delete_multiple" query="plan_id=7c2ea776c3083610b202be3ed401310f"/>
+</record_update>

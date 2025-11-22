@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property">
+    <sys_ux_page_property action="DELETE">
+        <choices/>
+        <description/>
+        <name>chrome_header</name>
+        <page display_value="">0d8f57b271c43610802c1633b3b44ce8</page>
+        <required_translations>[]</required_translations>
+        <route display_value="Login">c18f97b2a4c43610fe775b37f2a27312</route>
+        <suffix/>
+        <sys_class_name>sys_ux_page_property</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:21:04</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>global</sys_domain_path>
+        <sys_id>c18f57b261c43610ee66dd1e4cbd61f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_ux_page_property_c18f57b261c43610ee66dd1e4cbd61f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:21:04</sys_updated_on>
+        <type>json</type>
+        <unique_name>x_1078442_vantage.0d8f57b271c43610802c1633b3b44ce8.route.chrome_header.c18f97b2a4c43610fe775b37f2a27312</unique_name>
+        <value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value>
+    </sys_ux_page_property>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</application>
+        <file_path/>
+        <instance_id>19caec421b5d4e10a43dcb7b234bcb6d</instance_id>
+        <instance_name>dev252327</instance_name>
+        <name>sys_ux_page_property_c18f57b261c43610ee66dd1e4cbd61f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ux_page_property"><sys_ux_page_property action="INSERT_OR_UPDATE"><choices/><description/><name>chrome_header</name><page display_value="">0d8f57b271c43610802c1633b3b44ce8</page><required_translations>[]</required_translations><route display_value="Login">c18f97b2a4c43610fe775b37f2a27312</route><suffix/><sys_class_name>sys_ux_page_property</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-21 22:21:04</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>global</sys_domain_path><sys_id>c18f57b261c43610ee66dd1e4cbd61f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>chrome_header</sys_name><sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package><sys_policy/><sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope><sys_update_name>sys_ux_page_property_c18f57b261c43610ee66dd1e4cbd61f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-21 22:21:04</sys_updated_on><type>json</type><unique_name>x_1078442_vantage.0d8f57b271c43610802c1633b3b44ce8.route.chrome_header.c18f97b2a4c43610fe775b37f2a27312</unique_name><value>{&#13;
+    "privatePage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    },&#13;
+    "publicPage":{&#13;
+       "searchEnabled": false,&#13;
+       "userPrefsEnabled": false,&#13;
+       "menuEnabled": false&#13;
+    }&#13;
+ }</value></sys_ux_page_property></record_update>]]></payload>
+        <payload_hash>-1408554683</payload_hash>
+        <record_name>chrome_header</record_name>
+        <reverted_from/>
+        <source>8a82a431c3232210b202be3ed4013177</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-08-24 09:30:00</sys_created_on>
+        <sys_id>6700e7f2c3c43610b202be3ed4013190</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>198db69c9c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Page Property</type>
+        <update_guid>2700e7f232c4361081d7f8cc759c5790</update_guid>
+        <update_guid_history>2700e7f232c4361081d7f8cc759c5790:-1408554683</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_property">sys_ux_page_property</sys_db_object>
+        <sys_id>03a7624786d846d892a06d3bc547e364</sys_id>
+        <sys_metadata>c18f57b261c43610ee66dd1e4cbd61f1</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>chrome_header</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_scope_delete display_value="">0810eeee53074ba086a6cdd07ab36804</sys_scope_delete>
+        <sys_update_name>sys_ux_page_property_c18f57b261c43610ee66dd1e4cbd61f1</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_property_c18f57b261c43610ee66dd1e4cbd61f1">6700e7f2c3c43610b202be3ed4013190</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

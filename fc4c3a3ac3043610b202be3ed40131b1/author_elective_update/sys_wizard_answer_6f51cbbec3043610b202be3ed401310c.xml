@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer">
+    <sys_wizard_answer action="DELETE">
+        <active>true</active>
+        <answer>Vantage Vendors</answer>
+        <button_label/>
+        <dependent_value/>
+        <element/>
+        <name>Vantage Vendors</name>
+        <next_question/>
+        <order>100</order>
+        <payload_name/>
+        <question display_value="Task" name="Task">7816a07b5d3122104f34969735a7adb7</question>
+        <roles/>
+        <script/>
+        <sys_class_name>sys_wizard_answer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 20:09:16</sys_created_on>
+        <sys_id>6f51cbbec3043610b202be3ed401310c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vantage Vendors</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_wizard_answer_6f51cbbec3043610b202be3ed401310c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 20:09:16</sys_updated_on>
+        <table/>
+        <target_url>x_1078442_vantage_vantage_vendors.do</target_url>
+        <type>1</type>
+    </sys_wizard_answer>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</application>
+        <file_path/>
+        <instance_id>19caec421b5d4e10a43dcb7b234bcb6d</instance_id>
+        <instance_name>dev252327</instance_name>
+        <name>sys_wizard_answer_6f51cbbec3043610b202be3ed401310c</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_wizard_answer"><sys_wizard_answer action="INSERT_OR_UPDATE"><active>true</active><answer>Vantage Vendors</answer><button_label/><dependent_value/><element/><name>Vantage Vendors</name><next_question/><order>100</order><payload_name/><question display_value="Task" name="Task">7816a07b5d3122104f34969735a7adb7</question><roles/><script/><sys_class_name>sys_wizard_answer</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-21 20:09:16</sys_created_on><sys_id>6f51cbbec3043610b202be3ed401310c</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vantage Vendors</sys_name><sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package><sys_policy/><sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope><sys_update_name>sys_wizard_answer_6f51cbbec3043610b202be3ed401310c</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-21 20:09:16</sys_updated_on><table/><target_url>x_1078442_vantage_vantage_vendors.do</target_url><type>1</type></sys_wizard_answer></record_update>]]></payload>
+        <payload_hash>367616739</payload_hash>
+        <record_name>Vantage Vendors</record_name>
+        <reverted_from/>
+        <source>8a82a431c3232210b202be3ed4013177</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-08-24 09:30:00</sys_created_on>
+        <sys_id>d8cbd77ec3843610b202be3ed40131af</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>198db69c9c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>Answer</type>
+        <update_guid>98cbd77ef9843610fa894475d6aebfaf</update_guid>
+        <update_guid_history>98cbd77ef9843610fa894475d6aebfaf:367616739</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:04:34</sys_created_on>
+        <sys_db_object display_value="" name="sys_wizard_answer">sys_wizard_answer</sys_db_object>
+        <sys_id>2ecae8c7735344708b41091ce6049071</sys_id>
+        <sys_metadata>6f51cbbec3043610b202be3ed401310c</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vantage Vendors</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_parent display_value="Task">7816a07b5d3122104f34969735a7adb7</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_scope_delete display_value="">0810eeee53074ba086a6cdd07ab36804</sys_scope_delete>
+        <sys_update_name>sys_wizard_answer_6f51cbbec3043610b202be3ed401310c</sys_update_name>
+        <sys_update_version display_value="sys_wizard_answer_6f51cbbec3043610b202be3ed401310c">d8cbd77ec3843610b202be3ed40131af</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:04:34</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

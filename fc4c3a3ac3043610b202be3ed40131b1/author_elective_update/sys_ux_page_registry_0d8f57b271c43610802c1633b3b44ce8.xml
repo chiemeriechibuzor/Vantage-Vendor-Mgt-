@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry">
+    <sys_ux_page_registry action="DELETE">
+        <active>true</active>
+        <admin_panel>cd8f57b2e7c43610141fb8cc15d453e8</admin_panel>
+        <admin_panel_table>sys_ux_app_config</admin_panel_table>
+        <auth_routes>{"login":"login","logout": "login"}</auth_routes>
+        <page/>
+        <parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app>
+        <path>vantage-risk-compliance</path>
+        <root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent>
+        <sys_class_name>sys_ux_page_registry</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:21:04</sys_created_on>
+        <sys_id>0d8f57b271c43610802c1633b3b44ce8</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vantage Risk &amp; Compliance</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_ux_page_registry_0d8f57b271c43610802c1633b3b44ce8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:21:04</sys_updated_on>
+        <title>Vantage Risk &amp; Compliance </title>
+    </sys_ux_page_registry>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</application>
+        <file_path/>
+        <instance_id>19caec421b5d4e10a43dcb7b234bcb6d</instance_id>
+        <instance_name>dev252327</instance_name>
+        <name>sys_ux_page_registry_0d8f57b271c43610802c1633b3b44ce8</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_page_registry"><sys_ux_page_registry action="INSERT_OR_UPDATE"><active>true</active><admin_panel>cd8f57b2e7c43610141fb8cc15d453e8</admin_panel><admin_panel_table>sys_ux_app_config</admin_panel_table><auth_routes>{"login":"login","logout": "login"}</auth_routes><page/><parent_app display_value="Portal UI Template Parent App">de0b852eb0c88210f8774b320398b357</parent_app><path>vantage-risk-compliance</path><root_macroponent display_value="Portal App Shell">b66bf1075b31101016fd7c1bf481c7a7</root_macroponent><sys_class_name>sys_ux_page_registry</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-21 22:21:04</sys_created_on><sys_id>0d8f57b271c43610802c1633b3b44ce8</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Vantage Risk &amp; Compliance</sys_name><sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package><sys_policy/><sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope><sys_update_name>sys_ux_page_registry_0d8f57b271c43610802c1633b3b44ce8</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-21 22:21:04</sys_updated_on><title>Vantage Risk &amp; Compliance </title></sys_ux_page_registry></record_update>]]></payload>
+        <payload_hash>-1604957851</payload_hash>
+        <record_name>Vantage Risk &amp; Compliance </record_name>
+        <reverted_from/>
+        <source>8a82a431c3232210b202be3ed4013177</source>
+        <source_table>sys_upgrade_history</source_table>
+        <state>previous</state>
+        <sys_created_by/>
+        <sys_created_on>2025-08-24 09:30:00</sys_created_on>
+        <sys_id>5700e7f2c3c43610b202be3ed4013159</sys_id>
+        <sys_mod_count/>
+        <sys_recorded_at>198db69c9c00000000</sys_recorded_at>
+        <sys_updated_by/>
+        <sys_updated_on/>
+        <type>UX Application</type>
+        <update_guid>1700e7f285c43610e94db0f0bdb8c259</update_guid>
+        <update_guid_history>1700e7f285c43610e94db0f0bdb8c259:-1604957851</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:23:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ux_page_registry">sys_ux_page_registry</sys_db_object>
+        <sys_id>0d80930916424254afe3c7ee49775029</sys_id>
+        <sys_metadata>0d8f57b271c43610802c1633b3b44ce8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Vantage Risk &amp; Compliance</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_scope_delete display_value="">0810eeee53074ba086a6cdd07ab36804</sys_scope_delete>
+        <sys_update_name>sys_ux_page_registry_0d8f57b271c43610802c1633b3b44ce8</sys_update_name>
+        <sys_update_version display_value="sys_ux_page_registry_0d8f57b271c43610802c1633b3b44ce8">5700e7f2c3c43610b202be3ed4013159</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:23:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

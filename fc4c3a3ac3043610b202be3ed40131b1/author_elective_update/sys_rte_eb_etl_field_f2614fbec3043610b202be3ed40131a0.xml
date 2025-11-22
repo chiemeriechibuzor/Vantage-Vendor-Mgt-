@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field">
+    <sys_rte_eb_etl_field action="DELETE">
+        <coalesce>false</coalesce>
+        <coercion_action>create</coercion_action>
+        <field>u_primary_contact_emailemail</field>
+        <name>primary_contact_emailEmail</name>
+        <sys_class_name>sys_rte_eb_etl_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 20:09:30</sys_created_on>
+        <sys_id>f2614fbec3043610b202be3ed40131a0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>primary_contact_emailEmail</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_rte_eb_definition display_value="Vantage Vendors Data Mapping_etl_ihub">7e61cbbec3043610b202be3ed40131ea</sys_rte_eb_definition>
+        <sys_rte_eb_entity display_value="Source_x_1078442_vantage_ihub_import_de610fbec3043610b202be3ed401311c">f6614fbec3043610b202be3ed401316e</sys_rte_eb_entity>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_rte_eb_etl_field_f2614fbec3043610b202be3ed40131a0</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 20:09:30</sys_updated_on>
+    </sys_rte_eb_etl_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</application>
+        <file_path/>
+        <instance_id>19caec421b5d4e10a43dcb7b234bcb6d</instance_id>
+        <instance_name>dev252327</instance_name>
+        <name>sys_rte_eb_etl_field_f2614fbec3043610b202be3ed40131a0</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_rte_eb_etl_field"><sys_rte_eb_etl_field action="INSERT_OR_UPDATE"><coalesce>false</coalesce><coercion_action>create</coercion_action><field>u_primary_contact_emailemail</field><name>primary_contact_emailEmail</name><sys_class_name>sys_rte_eb_etl_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2025-09-21 20:09:30</sys_created_on><sys_id>f2614fbec3043610b202be3ed40131a0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>primary_contact_emailEmail</sys_name><sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package><sys_policy/><sys_rte_eb_definition display_value="Vantage Vendors Data Mapping_etl_ihub">7e61cbbec3043610b202be3ed40131ea</sys_rte_eb_definition><sys_rte_eb_entity display_value="Source_x_1078442_vantage_ihub_import_de610fbec3043610b202be3ed401311c">f6614fbec3043610b202be3ed401316e</sys_rte_eb_entity><sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope><sys_update_name>sys_rte_eb_etl_field_f2614fbec3043610b202be3ed40131a0</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2025-09-21 20:09:30</sys_updated_on></sys_rte_eb_etl_field></record_update>]]></payload>
+        <payload_hash>-1670279680</payload_hash>
+        <record_name>primary_contact_emailEmail</record_name>
+        <reverted_from/>
+        <source>b84c3a3ac3043610b202be3ed40131c2</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 20:09:30</sys_created_on>
+        <sys_id>32614fbec3043610b202be3ed40131a2</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1996de556f90000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 20:09:30</sys_updated_on>
+        <type>ETL Entity field</type>
+        <update_guid>36614fbee7043610badc9cd47962d8a1</update_guid>
+        <update_guid_history>36614fbee7043610badc9cd47962d8a1:-1670279680</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 22:04:16</sys_created_on>
+        <sys_db_object display_value="" name="sys_rte_eb_etl_field">sys_rte_eb_etl_field</sys_db_object>
+        <sys_id>59e70406e0994700a1c40f1193804000</sys_id>
+        <sys_metadata>f2614fbec3043610b202be3ed40131a0</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>primary_contact_emailEmail</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_scope_delete display_value="">0810eeee53074ba086a6cdd07ab36804</sys_scope_delete>
+        <sys_update_name>sys_rte_eb_etl_field_f2614fbec3043610b202be3ed40131a0</sys_update_name>
+        <sys_update_version display_value="sys_rte_eb_etl_field_f2614fbec3043610b202be3ed40131a0">32614fbec3043610b202be3ed40131a2</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 22:04:16</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
+    <sys_embedded_help_role action="INSERT_OR_UPDATE">
+        <order>1000</order>
+        <role display_value="x_1078442_vantage.user" name="x_1078442_vantage.user">854c3a3ac3043610b202be3ed40131d9</role>
+        <sys_class_name>sys_embedded_help_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2025-09-21 19:46:59</sys_created_on>
+        <sys_id>4d4c3a3ac3043610b202be3ed40131da</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>854c3a3ac3043610b202be3ed40131d9</sys_name>
+        <sys_package display_value="Vantage " source="x_1078442_vantage">fc4c3a3ac3043610b202be3ed40131b1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Vantage ">fc4c3a3ac3043610b202be3ed40131b1</sys_scope>
+        <sys_update_name>sys_embedded_help_role_4d4c3a3ac3043610b202be3ed40131da</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2025-09-21 19:46:59</sys_updated_on>
+    </sys_embedded_help_role>
+</record_update>
